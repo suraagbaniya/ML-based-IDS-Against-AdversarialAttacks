@@ -1,0 +1,16 @@
+#ignore virtual environment
+venv/
+
+#ignore raw CIIDS2017 csv files
+data/CICIDS2017/CSVfiles/
+
+data/CICIDS2017/merged.csv
+
+data/processed/
+
+#ignore ids model raw data
+backend/ids_model/baseline_rf.pkl
+backend/ids_model/baseline_xgb.pkl
+backend/ids_model/ensemble.pkl
+backend/ids_model/mlp_model.keras
+backend/ids_model/mlp_robust.keras
