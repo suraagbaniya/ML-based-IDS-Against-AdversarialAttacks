@@ -14,3 +14,69 @@ backend/ids_model/baseline_xgb.pkl
 backend/ids_model/ensemble.pkl
 backend/ids_model/mlp_model.keras
 backend/ids_model/mlp_robust.keras
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+ENV/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- Data & Models (Heavy Storage) ---
+# Ignore large binary models to keep repo small (use LFS if needed or re-train)
+backend/ids_model/*.pkl
+backend/ids_model/*.keras
+backend/ids_model/*.h5
+
+# Ignore local datasets
+data/raw/
+data/processed/
+*.csv
+*.pcap
+*.pkl
+!backend/ids_backend/api/*.py
+
+# --- Frontend (Node/React) ---
+frontend/ids-dashboard/node_modules/
+frontend/ids-dashboard/build/
+frontend/ids-dashboard/.env
+frontend/ids-dashboard/.DS_Store
+frontend/ids-dashboard/npm-debug.log*
+frontend/ids-dashboard/yarn-debug.log*
+frontend/ids-dashboard/yarn-error.log*
+
+# --- Operating System ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+
