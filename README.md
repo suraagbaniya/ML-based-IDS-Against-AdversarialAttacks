@@ -1,17 +1,17 @@
-# 🛡️ ML-based IDS Against Adversarial Attacks
+# ML-based IDS Against Adversarial Attacks
 
 A Machine Learning–based Intrusion Detection System (IDS) focused on identifying malicious network activities while maintaining robustness against adversarial evasion and manipulation techniques.
 
 ---
 
-## 📖 Introduction
+## Introduction
 Traditional Intrusion Detection Systems often fail when attackers deliberately craft network traffic to evade detection. This project addresses this challenge by integrating **machine learning–driven intrusion detection** with **adversarial attack evaluation**, aiming to improve the resilience and reliability of IDS models in real-world attack scenarios.
 
 The system evaluates how adversarially modified inputs affect detection accuracy and explores defensive strategies to mitigate such threats.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Design and implement an ML-based IDS for network intrusion detection  
 - Analyze the impact of adversarial attacks on IDS performance  
 - Improve detection robustness against evasion and poisoning techniques  
@@ -19,7 +19,7 @@ The system evaluates how adversarially modified inputs affect detection accuracy
 
 ---
 
-## 🚀 Key Features
+## Key Features
 - Machine learning–based detection of malicious network traffic  
 - Simulation of adversarial attacks (evasion and data poisoning)  
 - Comparative evaluation of IDS performance under normal and adversarial conditions  
@@ -27,7 +27,7 @@ The system evaluates how adversarially modified inputs affect detection accuracy
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 The system consists of the following core components:
 1. **Data Collection & Preprocessing** – Network traffic extraction and feature engineering  
 2. **ML Model Training** – Model development using supervised learning techniques  
@@ -37,7 +37,7 @@ The system consists of the following core components:
 
 ---
 
-## 🧰 Technology Stack
+## Technology Stack
 - **Programming Language:** Python  
 - **Machine Learning:** Scikit-learn, TensorFlow  
 - **Web Framework:** Django  
@@ -47,7 +47,7 @@ The system consists of the following core components:
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 The IDS is evaluated using widely accepted security and ML metrics:
 - Accuracy  
 - Precision  
@@ -57,7 +57,7 @@ The IDS is evaluated using widely accepted security and ML metrics:
 
 ---
 
-## 🔍 Adversarial Threat Model
+## Adversarial Threat Model
 This project considers adversarial techniques such as:
 - **Evasion Attacks:** Feature manipulation to bypass detection  
 - **Poisoning Attacks:** Corrupting training data to degrade model performance  
@@ -66,7 +66,7 @@ These attacks are used to assess IDS robustness and highlight potential defensiv
 
 ---
 
-## 🌐 Web Dashboard
+## Web Dashboard
 The Django-based dashboard provides:
 - Real-time intrusion alerts  
 - Model prediction outputs  
@@ -75,24 +75,4 @@ The Django-based dashboard provides:
 
 ---
 
-## 🎓 Academic Context
-- **Project Type:** Final Year Undergraduate Project  
-- **Field:** Cyber Security & Digital Forensics  
-- **Relevant Domains:** Intrusion Detection Systems, Adversarial Machine Learning, AI Security  
 
----
-
-## 📌 Project Status
-🛠️ Academic Prototype – Under Active Development
-
----
-
-## ⚠️ Disclaimer
-This project is intended **strictly for educational and research purposes**. It should not be deployed in production environments without proper security validation.
-
----
-
-## 📄 License
-Licensed for academic and non-commercial use.
-
----
